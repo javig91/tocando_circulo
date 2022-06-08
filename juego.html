@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Redressed&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet"> 
+    <title>Tocando el circulo</title>
+</head>
+<body id="colorFondo">
+        <span id="bienvenido">
+            <script>
+                let nombre = prompt('Bienvenidos/as, por favor ingresa tu nombre');
+                document.write(`<h4>Bienvenido/a ${nombre}, esperamos que puedas disfrutar del juego</h4>`);
+                window.onload
+                </script>
+        </span>  
+        <div class="contenedor pointer">
+            <span id="puntos"></span>
+            <span id="ned"></span>
+            <span id="tiempo"></span>
+        </div>
+        <div class="contenedor">
+            <div id="player"></div>
+        </div>
+        <div id="colores">
+            <p>Podes cambiar el color de fondo haciendo click sobre el que quieras</p>
+            <div id="cambioRojo" class="rojo color" onclick="cambiarRojo()"></div>
+            <div class="azul color" onclick="cambiarAzul()"></div>
+            <div class="celeste color" onclick="cambiarCeleste()"></div>
+            <div class="negro color" onclick="cambiarNegro()"></div>
+            <div class="blanco color" onclick="cambiarBlanco()"></div>
+        </div>
+        <div id="volverInicio">
+            <a href="index.html">Volver al inicio</a>
+        </div>
+    <script src="codigo.js"></script>
+</body>
+</html>

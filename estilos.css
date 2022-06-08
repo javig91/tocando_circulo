@@ -1,0 +1,306 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.bodyIndex {
+    background-image: url(img/circulosColoridosConTrasparenciaAl85.jpg);
+}
+#bienvenidos {
+    background-color: #ffffff;
+    width: 50%;
+    height: 80px;
+    margin: 15px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px #c44444;
+    line-height: 75px;
+}
+    #bienvenidos h3 {
+        font-size: 25px;
+        color: brown;
+    }
+#linksIndex {
+    /* background-color: rgba(137, 43, 226, 0.274); */
+    width: 50%;
+    margin: 50px auto;
+    list-style-type: none;
+
+}
+    #linksIndex a {
+        font-size: 25px;
+        color: rgb(135, 255, 80);
+        background-color: cornflowerblue;
+        text-decoration: none;
+        padding: 12px;
+        box-sizing: border-box;
+        margin: 0 0 0 25%;
+        border-radius: 10px;
+    }
+        #linksIndex a:hover {
+            background-color: rgba(100, 198, 237, 0.774);
+            color: #000000;
+        }
+
+#contenedorReglas {
+    width: 50%;
+    height: 150px;
+    margin: 20px auto;
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 5px 12px;
+}
+    #contenedorReglas p {
+        font-size: 22px;
+        color: cornsilk;
+        margin-bottom: 35px;
+    }
+    #contenedorReglas a {
+        text-decoration: none;
+        font-size: 22px;
+        color: cornsilk;
+        background-color: rgb(0, 0, 0);
+        padding: 12px;
+        box-shadow: 0px 0px 25px #03506f;
+        border-radius: 8px;
+    }
+        #contenedorReglas a:hover {
+            background-color: #5a5a5a;
+        }
+        
+.contenedor {
+    padding: 0px;
+    margin: auto;
+    width: 600px;
+    height: 600px;
+    background-color: #0a043c;
+    border: 6px solid rgb(218, 167, 100);
+    background-image: none;
+}
+.pointer {
+    background-color: #03506f;
+    height: 75px;
+    margin-top: 3%;
+    border-bottom: 0px;
+    line-height: 75px;
+    color: #ffe3de;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Redressed', cursive;
+}
+#player {
+    background-color: #a3ddcb;
+    width: 50px;
+    height: 50px;
+    border: 3.5px dashed #d34d36;
+    border-radius: 30px;
+    position: absolute;
+    transition: all 0.5s;
+}
+#colores {
+    background-color: #d34d36;
+    width: 600px;
+    height: 45px;
+    margin: 30px 0px 30px 10px;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0px 0px 10px #000000;
+    /* text-transform: uppercase; */
+    line-height: 45px;
+    font-size: 18px;
+}
+    .color {
+        width: 40px;
+        height: 40px;
+        box-shadow: 0px 0px 5px #c44444;
+        margin: 15px;
+        border-radius: 5px;
+        display: inline-block;
+        cursor: pointer;
+    }
+        .rojo {
+            background-color: #ff0000;
+        }
+        .azul {
+            background-color: #0000ff;
+        }
+        .celeste {
+            background-color: aqua;
+        }
+        .negro {
+            background-color: black;
+        }
+        .blanco {
+            background-color: #ffffff;
+        }
+        
+#bienvenido {
+    font-size: 20px;
+    padding: 10px;
+    font-family: 'Akaya Telivigala', cursive;
+    margin: 5px 20px;
+}
+
+#volverInicio {
+    width: 500px;
+    height: 50px;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 30px black;
+}
+    #volverInicio a {
+        width: 500px;
+        height: 50px;
+        line-height: 50px;
+        color: #6f0303;
+        text-decoration: none;
+        /* padding: 16px 161px; */
+        text-transform: uppercase;
+        font-weight: 700;
+        letter-spacing: 1.5px;
+        display: inline-block;
+        text-align: center;
+        background-color: #41aad3;
+        border-radius: 5px;
+    }
+        #volverInicio a:hover {
+            color: #a3ddcb;
+            background-color: #5a5a5a;
+            border-radius: 5px;
+        }
+
+@media all and (max-width: 600px) {
+   
+    #bienvenidos {
+        width: 75%;
+        height: auto;
+        padding: 5px;
+        line-height: 35px;
+        hyphens: auto;
+        word-break: break-word;
+    }
+        #bienvenidos h3 {
+            font-size: 19px;
+        }
+    #linksIndex {
+        width: 80%;
+    }
+        #linksIndex a {
+            font-size: 20px;
+            margin: 15px auto;
+            border-radius: 5px;
+            display: block;
+            text-align: center;
+        }
+
+    #contenedorReglas {
+        width: 75%;
+        height: auto;
+        border-radius: 5px;
+    }
+        #contenedorReglas p {
+            font-size: 20px;
+            margin: 10px 0 22px 0;
+        }
+        #contenedorReglas a {
+            font-size: 15px;
+            display: block;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 2px;
+            line-height: 25px;
+        }
+            
+    .contenedor {
+        /* padding: 0px; */
+        margin: auto;
+        width: 80%;
+        height: 350px;
+        /* background-color: #0a043c;
+        border: 6px solid rgb(218, 167, 100);
+        background-image: none; */
+        box-sizing: initial;
+    }
+    #tiempo {
+        margin: 0 auto;
+    }
+    .pointer {
+        /* background-color: #03506f; */
+        height: auto;
+        padding: 15px 0px;
+        /* margin-top: 3%;
+        border-bottom: 0px; */
+        line-height: 25px;
+        /* color: #ffe3de;
+        font-size: 22px;
+        text-align: center;
+        font-family: 'Redressed', cursive; */
+    }
+    #player {
+        /* background-color: #a3ddcb; */
+        width: 25px;
+        height: 25px;
+        /* border: 3.5px dashed #d34d36; */
+        /* border-radius: 30px; */
+        /* position: absolute; */
+        /* transition: all 0.5s; */
+    }
+    #colores {
+        background-color: #d34e368e;
+        width: 75%;
+        height: auto;
+        margin: 30px auto;
+        line-height: 20px;
+        font-size: 16px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+        .color {
+            width: 40px;
+            height: 40px;
+            box-shadow: 0px 0px 5px #c44444;
+            margin: 15px;
+            border-radius: 5px;
+            display: inline-block;
+            cursor: pointer;
+        }
+            .rojo {
+                background-color: #ff0000;
+            }
+            .azul {
+                background-color: #0000ff;
+            }
+            .celeste {
+                background-color: aqua;
+            }
+            .negro {
+                background-color: black;
+            }
+            .blanco {
+                background-color: #ffffff;
+            }
+    
+    #bienvenido {
+        width: 80%;
+        height: auto;
+        font-size: 17px;
+        text-align: center;
+        margin: 5px 10%;
+        display: block;
+        hyphens: auto;
+        word-break: break-word;
+    }
+    
+    #volverInicio {
+        width: 75%;
+        height: auto;
+    }
+        #volverInicio a {
+            width: 100%;
+            height: auto;
+            line-height: 24px;
+            font-size: 15px;
+            display: block;
+        }
+}
